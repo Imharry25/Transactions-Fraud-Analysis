@@ -77,12 +77,22 @@ This project focuses on **fraud detection and transaction behavior analysis** us
 
 ## 📈 Key Insights
 
-- High concentration of frauds from **Tablet users** and **Online/POS** transaction types
-- **Clothing and Travel** categories are more prone to fraud
-- Most fraud cases are concentrated in **Tokyo, NY, London**
-- **OTP & Biometric** authentication methods show marginally higher risk scores
-- Fraud rate fluctuates between 31.8% and 32.7% monthly
-- High-value transactions tend to be **lower risk**, but still monitored
+- High concentration of frauds from **Tablet & Mobile users** and **Online/ATM withdrawal** transaction types
+- **Restaurant, Groceries and Travel** categories contribute to >60% of fraud
+- **Risk Score** above 0.7 is a strong fraud indicator.
+- **Password & Biometric authentication** methods slightly riskier than OTP & PIN
+- Most fraud cases are concentrated in **Tokyo, NY, Sydney**
+- **August** has highest Fraud transactions 1434.
+- **Mastercard** has highest fraud cases.
+- High-value transactions tend to be lower risk, but still monitored.
+- **User 9644** shows high value & high risk, making them a candidate for manual review or advanced monitoring.
+- Dip seen in **February**, possibly due to fewer working days or off-peak cycle.
+- **August** may correspond with shopping festivals or seasonal events leading to a surge in transactions
+- Peak months for transaction volume: **August & December**.
+- Fraudulent transactions tend to have a slightly higher average amount suggesting possible attempts to extract more value in each attack.
+- **Password-based authentication** has a higher risk score, indicating it might be more vulnerable than OTP, PIN-based methods.
+**Tablet users** have the highest transaction value, suggesting higher value transactions are preferred via tablet devices.
+
 
 ---
 
