@@ -43,11 +43,6 @@ This project focuses on **fraud detection and transaction behavior analysis** us
 
 ---
 
-## 📂 Dataset
-
-- **Name**: `synthetic_fraud_dataset.csv`  
-- **Source**: Publicly generated synthetic data (no PII)
-
 **Columns include**:  
 `Transaction_ID`, `Timestamp`, `Location`, `Device_Type`, `Card_Type`, `Authentication_Method`, `Transaction_Amount`, `Risk_Score`, `Risk`, `Fraud_Label`, `Transaction_Type`, etc.
 
@@ -56,10 +51,11 @@ This project focuses on **fraud detection and transaction behavior analysis** us
 ## 📷 Dashboard Screenshots
 
 ### 🛡️ Fraud Detection View  
-![Fraud Detection](assets/fraud_detection_view.png)
+![image](https://github.com/user-attachments/assets/cc950389-3a47-46d2-af8d-a88769c3e22d)
+
 
 ### 📈 Transaction Insights View  
-![Transaction Insights](assets/transaction_insights_view.png)
+![image](https://github.com/user-attachments/assets/cfdee54f-b87f-4d9d-9001-800537b42c7a)
 
 ---
 
@@ -87,8 +83,6 @@ This project focuses on **fraud detection and transaction behavior analysis** us
 - **OTP & Biometric** authentication methods show marginally higher risk scores
 - Fraud rate fluctuates between 31.8% and 32.7% monthly
 - High-value transactions tend to be **lower risk**, but still monitored
-
----
 
 ---
 
